@@ -1,0 +1,126 @@
+/* Login Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #FFD700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.login-container {
+    background: #222;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+    text-align: center;
+    border-radius: 8px;
+    width: 350px;
+    color: #FFD700;
+    transform: scale(0.9);
+    animation: popUp 0.5s ease-in-out forwards;
+}
+
+@keyframes popUp {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.login-container h2 {
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+    position: relative;
+    animation: slideIn 0.8s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background: #333;
+    color: #FFD700;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #FFC107;
+    outline: none;
+    transform: scale(1.05);
+}
+
+/* Toggle Password Visibility */
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFD700;
+    transition: transform 0.3s ease;
+}
+
+.toggle-password:hover {
+    transform: scale(1.2);
+}
+
+/* Login Button */
+button {
+    background: #FFD700;
+    color: #111;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 8px rgba(255, 215, 0, 0.5);
+}
+
+button:hover {
+    background: #FFC107;
+    box-shadow: 3px 3px 12px rgba(255, 215, 0, 0.9);
+    transform: scale(1.05);
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.register-link a:hover {
+    color: #FFC107;
+    text-decoration: underline;
+    transform: scale(1.1);
+}

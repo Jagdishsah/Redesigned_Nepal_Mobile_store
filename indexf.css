@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+.container {
+    height: 90vh;
+    width: 100%;
+    background: url('bg1.webp') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+}
+.text-section {
+    max-width: 500px;
+    padding-left: 120px;
+}
+.sugg {
+    font-size: 16px;
+    color: gray;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desc {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.shop-button {
+    display: inline-block;
+    padding: 13px 35px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 5px;
+    border-style: solid ;
+    border-color: black;
+}
+.shop-button:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.best-seller {
+    text-align: center;
+    padding: 50px 0;
+}
+.best-seller h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.best-seller p {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.mobile-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.mobile-item {
+    text-align: center;
+}
+.mobile-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+.mobile-item h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.mobile-item h3:hover{
+    text-decoration: underline;
+}
+.mobile-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e67e22;
+}
+.btn2 {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Mansalva', cursive;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.btn2:hover {
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+.mobile-collection {
+    height: 85vh;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 100px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.image-container img {
+    width: 480px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.text-container {
+    max-width: 450px;
+    padding-right: 130px;
+}
+.text-container h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+.shop-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.shop-button:hover {
+    background: #333;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px 20px;
+}
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+.social-links li {
+    margin-bottom: 10px;
+}
+.login {
+    display: flex;
+    
+}
+.login button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login button:hover {
+    background-color: #ff4c4c;
+}
+.payment-methods {
+    text-align: center;
+    margin: 10px 0;
+}
+.payment-methods img {
+    width: 50px;
+    margin: 0 10px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
