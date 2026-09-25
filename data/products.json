@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "iphone-17-pro-max-256gb",
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "variant": "256GB",
+    "price_npr": 242499,
+    "formatted_price": "NPR 242,499",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-17-pro-256gb",
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "variant": "256GB",
+    "price_npr": 221299,
+    "formatted_price": "NPR 221,299",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-air-256gb",
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "variant": "256GB",
+    "price_npr": 190699,
+    "formatted_price": "NPR 190,699",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-17-256gb",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "variant": "256GB",
+    "price_npr": 173499,
+    "formatted_price": "NPR 173,499",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-16-128gb",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "variant": "128GB",
+    "price_npr": 146599,
+    "formatted_price": "NPR 146,599",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "8GB",
+      "storage": "128GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-17e-256gb",
+    "brand": "Apple",
+    "model": "iPhone 17e",
+    "variant": "256GB",
+    "price_npr": 132499,
+    "formatted_price": "NPR 132,499",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-15-128gb",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "variant": "128GB",
+    "price_npr": 127499,
+    "formatted_price": "NPR 127,499",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "8GB",
+      "storage": "128GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "256gb",
+    "brand": "Apple",
+    "model": "256GB",
+    "variant": "",
+    "price_npr": 512,
+    "formatted_price": "NPR 512",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-z-fold-8-ultra-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 8 Ultra",
+    "variant": "12+256GB",
+    "price_npr": 299999,
+    "formatted_price": "NPR 299,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-z-fold-8-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 8",
+    "variant": "12+256GB",
+    "price_npr": 274999,
+    "formatted_price": "NPR 274,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-z-fold-7-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 7",
+    "variant": "12+256GB",
+    "price_npr": 259999,
+    "formatted_price": "NPR 259,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-z-flip-8-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 8",
+    "variant": "12+256GB",
+    "price_npr": 194999,
+    "formatted_price": "NPR 194,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-z-flip-7-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 7",
+    "variant": "12+256GB",
+    "price_npr": 154999,
+    "formatted_price": "NPR 154,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-s26-ultra-12gb-1tb",
+    "brand": "Samsung",
+    "model": "Galaxy S26 Ultra",
+    "variant": "12GB+1TB",
+    "price_npr": 293999,
+    "formatted_price": "NPR 293,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12GB+1TB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-s26-plus-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy S26 Plus",
+    "variant": "12+256GB",
+    "price_npr": 159999,
+    "formatted_price": "NPR 159,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-s26-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy S26",
+    "variant": "12+256GB",
+    "price_npr": 133999,
+    "formatted_price": "NPR 133,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "8GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-s25-ultra-12-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "variant": "12+256GB",
+    "price_npr": 184999,
+    "formatted_price": "NPR 184,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-s26-fe-8-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy S26 FE",
+    "variant": "8+256GB",
+    "price_npr": 119999,
+    "formatted_price": "NPR 119,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "8GB",
+      "storage": "8+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-s25-fe-5g-8-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy S25 FE 5G",
+    "variant": "8+256GB",
+    "price_npr": 107999,
+    "formatted_price": "NPR 107,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "8GB",
+      "storage": "8+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-a57-8-256gb",
+    "brand": "Samsung",
+    "model": "Galaxy A57",
+    "variant": "8+256GB",
+    "price_npr": 84999,
+    "formatted_price": "NPR 84,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-a37-8-128gb",
+    "brand": "Samsung",
+    "model": "Galaxy A37",
+    "variant": "8+128GB",
+    "price_npr": 64999,
+    "formatted_price": "NPR 64,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8+128GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-a27-5g-6-128gb",
+    "brand": "Samsung",
+    "model": "Galaxy A27 5G",
+    "variant": "6+128GB",
+    "price_npr": 51999,
+    "formatted_price": "NPR 51,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "6+128GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-a17-5g-6-128gb",
+    "brand": "Samsung",
+    "model": "Galaxy A17 5G",
+    "variant": "6+128GB",
+    "price_npr": 36999,
+    "formatted_price": "NPR 36,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "6+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-m17-5g-6-128gb",
+    "brand": "Samsung",
+    "model": "Galaxy M17 5G",
+    "variant": "6+128GB",
+    "price_npr": 32999,
+    "formatted_price": "NPR 32,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "6+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-a07s-4-64gb",
+    "brand": "Samsung",
+    "model": "Galaxy A07s",
+    "variant": "4+64GB",
+    "price_npr": 30499,
+    "formatted_price": "NPR 30,499",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "4+64GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "galaxy-a07-4-64gb",
+    "brand": "Samsung",
+    "model": "Galaxy A07",
+    "variant": "4+64GB",
+    "price_npr": 18999,
+    "formatted_price": "NPR 18,999",
+    "category": "Flagship & Midrange",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "4+64GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-a7",
+    "brand": "Xiaomi",
+    "model": "Redmi A7",
+    "variant": "",
+    "price_npr": 16999,
+    "formatted_price": "NPR 16,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-a7-pro-4-64gb",
+    "brand": "Xiaomi",
+    "model": "Redmi A7 Pro",
+    "variant": "4+64GB",
+    "price_npr": 17999,
+    "formatted_price": "NPR 17,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "4+64GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-a7-pro-4-128gb",
+    "brand": "Xiaomi",
+    "model": "Redmi A7 Pro",
+    "variant": "4+128GB",
+    "price_npr": 22999,
+    "formatted_price": "NPR 22,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "4+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-17-4-128gb",
+    "brand": "Xiaomi",
+    "model": "Redmi 17",
+    "variant": "4+128GB",
+    "price_npr": 27999,
+    "formatted_price": "NPR 27,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "4+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-17-5g-4-128gb",
+    "brand": "Xiaomi",
+    "model": "Redmi 17 5G",
+    "variant": "4+128GB",
+    "price_npr": 33999,
+    "formatted_price": "NPR 33,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "4+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-note-17-4g-6-128gb",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 17 4G",
+    "variant": "6+128GB",
+    "price_npr": 42999,
+    "formatted_price": "NPR 42,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "6+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-note-17-5g-6-128gb",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 17 5G",
+    "variant": "6+128GB",
+    "price_npr": 47999,
+    "formatted_price": "NPR 47,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "6+128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-note-17-pro-5g-8-256gb",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 17 Pro 5G",
+    "variant": "8+256GB",
+    "price_npr": 57999,
+    "formatted_price": "NPR 57,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "redmi-note-17-pro-max-5g-8-256gb",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 17 Pro Max 5G",
+    "variant": "8+256GB",
+    "price_npr": 69999,
+    "formatted_price": "NPR 69,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "xiaomi-17t-12-256gb",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T",
+    "variant": "12+256GB",
+    "price_npr": 92999,
+    "formatted_price": "NPR 92,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "12+256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "xiaomi-17-ultra-16-512gb",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Ultra",
+    "variant": "16+512GB",
+    "price_npr": 199999,
+    "formatted_price": "NPR 199,999",
+    "category": "Midrange & Budget",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "16+512GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "oneplus-nord-ce-5-8-256gb",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE 5",
+    "variant": "8/256GB",
+    "price_npr": 53999,
+    "formatted_price": "NPR 53,999",
+    "category": "Flagship Killer",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8/256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "oneplus-nord-5-12-256gb",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord 5",
+    "variant": "12/256GB",
+    "price_npr": 73999,
+    "formatted_price": "NPR 73,999",
+    "category": "Flagship Killer",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "12/256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "oneplus-nord-6-8-256gb",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord 6",
+    "variant": "8/256GB",
+    "price_npr": 89999,
+    "formatted_price": "NPR 89,999",
+    "category": "Flagship Killer",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8/256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "oneplus-15r-12-256gb",
+    "brand": "OnePlus",
+    "model": "OnePlus 15R",
+    "variant": "12/256GB",
+    "price_npr": 98499,
+    "formatted_price": "NPR 98,499",
+    "category": "Flagship Killer",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "12/256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "oneplus-15-16-512gb",
+    "brand": "OnePlus",
+    "model": "OnePlus 15",
+    "variant": "16/512GB",
+    "price_npr": 169999,
+    "formatted_price": "NPR 169,999",
+    "category": "Flagship Killer",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Flagship Octa-Core",
+      "ram": "12GB",
+      "storage": "16/512GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "nothing-phone-3a-lite-8-128gb",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3a) Lite",
+    "variant": "8/128GB",
+    "price_npr": 40999,
+    "formatted_price": "NPR 40,999",
+    "category": "Design & Innovation",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8/128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nothing-phone-2a-plus-8-256gb",
+    "brand": "Nothing",
+    "model": "Nothing Phone (2a) Plus",
+    "variant": "8/256GB",
+    "price_npr": 49999,
+    "formatted_price": "NPR 49,999",
+    "category": "Design & Innovation",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8/256GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nothing-phone-4b-8-128gb",
+    "brand": "Nothing",
+    "model": "Nothing Phone (4b)",
+    "variant": "8/128GB",
+    "price_npr": 59999,
+    "formatted_price": "NPR 59,999",
+    "category": "Design & Innovation",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8/128GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "nothing-phone-4a-8-128gb",
+    "brand": "Nothing",
+    "model": "Nothing Phone (4a)",
+    "variant": "8/128GB",
+    "price_npr": 64999,
+    "formatted_price": "NPR 64,999",
+    "category": "Design & Innovation",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "8/128GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "nothing-phone-4a-pro-12-256gb",
+    "brand": "Nothing",
+    "model": "Nothing Phone (4a) Pro",
+    "variant": "12/256GB",
+    "price_npr": 93999,
+    "formatted_price": "NPR 93,999",
+    "category": "Design & Innovation",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "12/256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "nothing-phone-3-12-256gb",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3)",
+    "variant": "12/256GB",
+    "price_npr": 89999,
+    "formatted_price": "NPR 89,999",
+    "category": "Design & Innovation",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "Dynamic AMOLED 120Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "8GB",
+      "storage": "12/256GB",
+      "camera": "50MP Triple Camera + OIS",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Popular",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-105-2017-single-sim",
+    "brand": "Nokia",
+    "model": "Nokia 105 (2017) (Single SIM)",
+    "variant": "",
+    "price_npr": 2399,
+    "formatted_price": "NPR 2,399",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-105-2017-dual-sim",
+    "brand": "Nokia",
+    "model": "Nokia 105 (2017) (Dual SIM)",
+    "variant": "",
+    "price_npr": 2449,
+    "formatted_price": "NPR 2,449",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "new-nokia-104-single-sim",
+    "brand": "Nokia",
+    "model": "New Nokia 104 (Single SIM)",
+    "variant": "",
+    "price_npr": 2449,
+    "formatted_price": "NPR 2,449",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "new-nokia-105-dual-sim",
+    "brand": "Nokia",
+    "model": "New Nokia 105  (Dual SIM)",
+    "variant": "",
+    "price_npr": 2549,
+    "formatted_price": "NPR 2,549",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-110-ds",
+    "brand": "Nokia",
+    "model": "Nokia 110 DS",
+    "variant": "",
+    "price_npr": 3099,
+    "formatted_price": "NPR 3,099",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "new-nokia-110-ds",
+    "brand": "Nokia",
+    "model": "New Nokia 110 DS",
+    "variant": "",
+    "price_npr": 3299,
+    "formatted_price": "NPR 3,299",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-125-ds",
+    "brand": "Nokia",
+    "model": "Nokia 125 DS",
+    "variant": "",
+    "price_npr": 3444,
+    "formatted_price": "NPR 3,444",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-150-2020",
+    "brand": "Nokia",
+    "model": "Nokia 150 (2020)",
+    "variant": "",
+    "price_npr": 4144,
+    "formatted_price": "NPR 4,144",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-5310-ds",
+    "brand": "Nokia",
+    "model": "Nokia 5310 DS",
+    "variant": "",
+    "price_npr": 5449,
+    "formatted_price": "NPR 5,449",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-6310-ds",
+    "brand": "Nokia",
+    "model": "Nokia 6310 DS",
+    "variant": "",
+    "price_npr": 6299,
+    "formatted_price": "NPR 6,299",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-c1-2nd-gen-1-16gb",
+    "brand": "Nokia",
+    "model": "Nokia C1 2nd Gen (1/16GB)",
+    "variant": "",
+    "price_npr": 6999,
+    "formatted_price": "NPR 6,999",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-c20-2-32gb",
+    "brand": "Nokia",
+    "model": "Nokia C20 (2/32GB)",
+    "variant": "",
+    "price_npr": 10999,
+    "formatted_price": "NPR 10,999",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-c21-plus",
+    "brand": "Nokia",
+    "model": "Nokia C21 Plus",
+    "variant": "",
+    "price_npr": 16499,
+    "formatted_price": "NPR 16,499",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-c30-2-32gb",
+    "brand": "Nokia",
+    "model": "Nokia C30 (2/32GB)",
+    "variant": "",
+    "price_npr": 12999,
+    "formatted_price": "NPR 12,999",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-g10-4-64gb",
+    "brand": "Nokia",
+    "model": "Nokia G10 (4/64GB)",
+    "variant": "",
+    "price_npr": 16999,
+    "formatted_price": "NPR 16,999",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-g11-plus-3-64gb",
+    "brand": "Nokia",
+    "model": "Nokia G11 Plus (3/64GB)",
+    "variant": "",
+    "price_npr": 19499,
+    "formatted_price": "NPR 19,499",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-g20-4-64gb",
+    "brand": "Nokia",
+    "model": "Nokia G20 (4/64GB)",
+    "variant": "",
+    "price_npr": 19999,
+    "formatted_price": "NPR 19,999",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-g21-6-128gb",
+    "brand": "Nokia",
+    "model": "Nokia G21 (6/128GB)",
+    "variant": "",
+    "price_npr": 22999,
+    "formatted_price": "NPR 22,999",
+    "category": "Budget & Classic",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "6.6\" FHD+ 90Hz",
+      "processor": "Octa-Core Processor",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh Fast Charge"
+    },
+    "tag": "Budget Choice",
+    "in_stock": true
+  },
+  {
+    "id": "iphone-16-pro-max-original",
+    "brand": "Apple",
+    "model": "Iphone 16 Pro Max",
+    "variant": "256GB",
+    "price_npr": 308000,
+    "formatted_price": "NPR 308,000",
+    "category": "Flagship",
+    "image": "ios.jpg",
+    "specs": {
+      "display": "6.9\" Super Retina XDR OLED 120Hz",
+      "processor": "Apple A18 Pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "48MP Fusion Triple Camera",
+      "battery": "4685 mAh"
+    },
+    "tag": "Best Seller",
+    "in_stock": true
+  },
+  {
+    "id": "samsung-s25-ultra-original",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy s25 Ultra",
+    "variant": "512GB",
+    "price_npr": 250000,
+    "formatted_price": "NPR 250,000",
+    "category": "Flagship",
+    "image": "s25.jpg",
+    "specs": {
+      "display": "6.8\" Dynamic AMOLED 2X 120Hz",
+      "processor": "Snapdragon 8 Gen 4 for Galaxy",
+      "ram": "12GB",
+      "storage": "512GB",
+      "camera": "200MP Quad Camera",
+      "battery": "5000 mAh"
+    },
+    "tag": "Top Rated",
+    "in_stock": true
+  },
+  {
+    "id": "huawei-p50-pro-original",
+    "brand": "Huawei",
+    "model": "Huawei P50 Pro",
+    "variant": "256GB",
+    "price_npr": 200000,
+    "formatted_price": "NPR 200,000",
+    "category": "Premium",
+    "image": "p50.jpg",
+    "specs": {
+      "display": "6.6\" OLED 120Hz",
+      "processor": "Snapdragon 888 4G",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "50MP True-Chroma Quad Camera",
+      "battery": "4360 mAh"
+    },
+    "tag": "Classic",
+    "in_stock": true
+  },
+  {
+    "id": "nokia-3300-original",
+    "brand": "Nokia",
+    "model": "Nokia 3300",
+    "variant": "Standard",
+    "price_npr": 10000,
+    "formatted_price": "NPR 10,000",
+    "category": "Classic Feature",
+    "image": "nokia.jpg",
+    "specs": {
+      "display": "1.7\" Color Display",
+      "processor": "Symbian OS",
+      "ram": "64MB",
+      "storage": "64MB + MMC Expansion",
+      "camera": "N/A",
+      "battery": "830 mAh Removable"
+    },
+    "tag": "Legendary",
+    "in_stock": true
+  }
+]

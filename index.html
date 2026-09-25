@@ -1,148 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nepal Mobile Store</title>
+    <title>Nepal Mobile Store — Latest Smartphones & Prices in Nepal</title>
+    <meta name="description" content="Explore and buy the latest smartphones in Nepal with real-time NPR prices, official warranty, fast delivery across Siraha, Kathmandu and Nepal.">
     <link rel="icon" href="icon.png" type="image/x-png">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="indexf.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    
 
-    <!-- Header -->
+    <!-- Glassmorphism Header -->
     <header class="header">
-        <div class="logo">Nepal Mobile Store</div>
-        <nav class="nav">
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-list">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="form.html">Login</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="register.html">Sign Up</a></li>
-            </ul>
-        </nav>
-        <div class="icons">
-            <span><img src="11.png" alt="Icon 1"></span>
-            <span><img src="22.png" alt="Icon 2"></span>
-            <span><img src="33.png" alt="Icon 3"></span>
-            <span><img src="44.png" alt="Icon 4"></span>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fas fa-mobile-alt"></i></div>
+                <span>Nepal Mobile Store</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="#catalog" class="nav-link">Shop</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="form.html" class="nav-link">Login</a></li>
+                    <li><a href="register.html" class="nav-link btn btn-outline" style="padding: 0.4rem 1rem;">Sign Up</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <button class="icon-btn" id="cart-toggle-btn" title="Shopping Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge" id="cart-badge-count">0</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </div>
-        <button id="themeToggle" title="Toggle Dark Mode">
-            <i class="fas fa-moon"></i>
-        </button>
     </header>
 
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="hero-content">
-            <h1 id="typingText"></h1>
-            <p>Your one-stop destination for premium smartphones.</p>
-            <a href="#shop" class="shop-button">Shop Now</a>
+    <!-- Hero & Trust Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="hero-tag"><i class="fas fa-bolt"></i> Live Prices Ingested from GadgetByte Nepal</span>
+                <h1 class="hero-title">Experience <span class="text-gradient">Premium Mobile Shopping</span> in Nepal</h1>
+                <p class="hero-subtitle">Discover flagship performance, budget champions, and official warranty devices with transparent pricing in Nepalese Rupees (NPR).</p>
+                <div class="hero-cta">
+                    <a href="#catalog" class="btn btn-primary"><i class="fas fa-shopping-bag"></i> Explore Catalog</a>
+                    <a href="about.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Learn More</a>
+                </div>
+            </div>
+
+            <div class="hero-banner-card">
+                <img src="bg12.jpg" alt="Nepal Mobile Store Collection Banner">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="trust-bar">
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <div class="trust-title">Official Nepal Warranty</div>
+                        <div class="trust-desc">100% Genuine Authorized Stocks</div>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-truck"></i></div>
+                    <div>
+                        <div class="trust-title">Fast Delivery</div>
+                        <div class="trust-desc">Across Siraha, KTM & Nepal</div>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-receipt"></i></div>
+                    <div>
+                        <div class="trust-title">VAT Bill Included</div>
+                        <div class="trust-desc">Transparent Tax Billing</div>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-headset"></i></div>
+                    <div>
+                        <div class="trust-title">Customer Support</div>
+                        <div class="trust-desc">+977 9702406668 Assist</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section with Search & Filtering -->
+    <section class="catalog-section" id="catalog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Smartphone Catalog</h2>
+                <p class="section-subtitle">Real-time market prices in Nepalese Rupees (NPR)</p>
+            </div>
+
+            <div class="controls-bar">
+                <div class="search-row">
+                    <div class="search-input-wrapper">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="catalog-search" class="search-input" placeholder="Search by model, brand (e.g. iPhone 17, S26, Xiaomi, Nothing)...">
+                    </div>
+                </div>
+
+                <div class="filter-pills" id="brand-pills-container">
+                    <button class="brand-pill active" data-brand="All">All Brands</button>
+                    <button class="brand-pill" data-brand="Apple">Apple</button>
+                    <button class="brand-pill" data-brand="Samsung">Samsung</button>
+                    <button class="brand-pill" data-brand="Xiaomi">Xiaomi</button>
+                    <button class="brand-pill" data-brand="OnePlus">OnePlus</button>
+                    <button class="brand-pill" data-brand="Nothing">Nothing</button>
+                    <button class="brand-pill" data-brand="Nokia">Nokia</button>
+                    <button class="brand-pill" data-brand="Huawei">Huawei</button>
+                </div>
+            </div>
+
+            <!-- Dynamic Products Grid -->
+            <div class="products-grid" id="products-grid">
+                <div style="grid-column: 1/-1; text-align: center; padding: 3rem;">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--primary);"></i>
+                    <p style="margin-top: 1rem; color: var(--text-muted);">Loading smartphone catalog...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide-Over Shopping Cart Drawer -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-drawer">
+            <div class="cart-header">
+                <h3 class="cart-title"><i class="fas fa-shopping-bag"></i> Your Cart</h3>
+                <button class="cart-close-btn" id="cart-close-btn">&times;</button>
+            </div>
+            <div class="cart-items-body" id="cart-drawer-items">
+                <!-- Cart items rendered dynamically -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-subtotal-row">
+                    <span>Subtotal:</span>
+                    <span id="cart-subtotal-amount">NPR 0</span>
+                </div>
+                <button class="checkout-btn" id="checkout-action-btn">
+                    <i class="fas fa-check-circle"></i> Proceed to Checkout
+                </button>
+            </div>
         </div>
     </div>
 
-    <!-- Best Seller Section -->
-    <section class="best-seller">
-        <h2>BEST SELLER</h2>
-        <p id="shop">Best Seller Product This Week!</p>
-        <div class="mobile-list">
-            <div class="mobile-item">
-                <img src="ios.jpg" alt="Iphone 13 Pro Max">
-                <h3>Iphone 16 Pro Max</h3>
-                <p>NPR 308,000</p>
+    <!-- Quick View Modal -->
+    <div class="cart-overlay" id="quick-view-modal">
+        <div class="cart-drawer" style="max-width: 550px; left: 50%; top: 50%; right: auto; bottom: auto; transform: translate(-50%, -50%); border-radius: var(--radius-lg); height: auto; max-height: 90vh;">
+            <div class="cart-header">
+                <span class="product-brand" id="modal-brand">Brand</span>
+                <button class="cart-close-btn" onclick="document.getElementById('quick-view-modal').classList.remove('active')">&times;</button>
             </div>
-            <div class="mobile-item">
-                <img src="s25.jpg" alt="Samsung Galaxy s25 Ultra">
-                <h3>Samsung Galaxy s25 Ultra</h3>
-                <p>NPR 250,000</p>
-            </div>
-            <div class="mobile-item">
-                <img src="p50.jpg" alt="Huawei P50 Pro ">
-                <h3>Huawei P50 Pro </h3>
-                <p>NPR 200,000</p>
-            </div>
-            <div class="mobile-item">
-                <img src="nokia.jpg" alt="Nokia 3300">
-                <h3>Nokia 3300</h3>
-                <p>NPR 10,000</p>
-            </div>
-        </div>
-        <a href="form.html" class="btn2" onclick="logged()">Our Products</a>
-    </section>
+            <div style="padding: 1.5rem; overflow-y: auto;">
+                <div style="text-align: center; margin-bottom: 1rem;">
+                    <img id="modal-img" src="ios.jpg" alt="Phone" style="max-height: 200px; object-fit: contain;">
+                </div>
+                <h3 id="modal-title" style="font-size: 1.3rem; margin-bottom: 0.5rem;">Model Name</h3>
+                <div id="modal-price" style="font-size: 1.4rem; font-weight: 800; color: var(--accent-hover); margin-bottom: 1.25rem;">NPR 0</div>
+                
+                <h4 style="font-size: 0.95rem; margin-bottom: 0.75rem;">Technical Specifications:</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; font-size: 0.88rem; margin-bottom: 1.5rem;">
+                    <div style="background: var(--bg-body); padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                        <strong>Display:</strong> <span id="modal-display">N/A</span>
+                    </div>
+                    <div style="background: var(--bg-body); padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                        <strong>Processor:</strong> <span id="modal-processor">N/A</span>
+                    </div>
+                    <div style="background: var(--bg-body); padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                        <strong>RAM:</strong> <span id="modal-ram">N/A</span>
+                    </div>
+                    <div style="background: var(--bg-body); padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                        <strong>Storage:</strong> <span id="modal-storage">N/A</span>
+                    </div>
+                    <div style="background: var(--bg-body); padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                        <strong>Camera:</strong> <span id="modal-camera">N/A</span>
+                    </div>
+                    <div style="background: var(--bg-body); padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                        <strong>Battery:</strong> <span id="modal-battery">N/A</span>
+                    </div>
+                </div>
 
-    <!-- Mobile Collection Section -->
-    <section class="mobile-collection">
-        <div class="image-container">
-            <img src="bg12.jpg" alt="Mobile Collection">
+                <button class="btn btn-primary" id="modal-add-btn" style="width: 100%;">
+                    <i class="fas fa-cart-plus"></i> Add to Cart
+                </button>
+            </div>
         </div>
-        <div class="text-container">
-            <h1 id="Home">Mobile Collection</h1>
-            <p>Explore the Latest Mobile Collection – Quality, Performance & Style in Every Handset! 📱🔥 Only At Nepal Mobile Store. From Iphone to Nokia And From Budget To High Premium Range.</p>
-            <a href="#shop" class="shop-button">Shop Now</a>
-        </div>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="https://www.apple.com/">Apple</a></li>
-                    <li><a href="https://www.samsung.com/in/">Samsung</a></li>
-                    <li><a href="https://intl.nothing.tech/">Nothing</a></li>
-                    <li><a href="https://www.huawei.com/en/">Huawei</a></li>
-                </ul>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo" style="color: #fff;">
+                        <div class="logo-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <span>Nepal Mobile Store</span>
+                    </div>
+                    <p>Your premier destination for authentic mobile devices, fast delivery, and unbeatable prices across Nepal.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Top Manufacturers</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a></li>
+                        <li><a href="https://www.samsung.com/in/" target="_blank" rel="noopener">Samsung</a></li>
+                        <li><a href="https://intl.nothing.tech/" target="_blank" rel="noopener">Nothing</a></li>
+                        <li><a href="https://www.huawei.com/en/" target="_blank" rel="noopener">Huawei</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#catalog">Shop Catalog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="form.html">Login Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone-alt"></i> +977 9702406668</li>
+                        <li><i class="fas fa-envelope"></i> daya123ab@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Bishnupur 1, Siraha, Nepal</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-section">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="https://www.gadgetbytenepal.com/privacy-policy/">Privacy Policy</a></li>
-                    <li><a href="https://policies.google.com/terms?hl=en">Terms & Conditions</a></li>
-                </ul>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nepal Mobile Store. All Rights Reserved. Grade 12 Computer Science Coursework.</p>
             </div>
-            <div class="footer-section">
-                <h4>Follow Us</h4>
-                <ul class="social-links">
-                    <li><a href="https://www.facebook.com/kingdaya.happy">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/jagdish.sah.daya">Instagram</a></li>
-                    <li><a href="https://wa.me/9779702406668">WhatsApp</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Sign Up / Sign In</h4>
-                <form class="login" action="form.html">
-                    <button type="submit">Log In</button>
-                </form>
-            </div>
-        </div>
-        <div class="payment-methods">
-            <img src="visa.png" alt="Visa">
-            <img src="mc.png" alt="Mastercard">
-            <img src="paypal.png" alt="PayPal">
-        </div>
-        <div class="copyright">
-            <p>&copy; 2025 Nepal Mobile Store. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- Scroll-to-Top Button -->
-    <button id="scrollToTop" title="Go to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-<script>const viewportMeta = document.querySelector('meta[name="viewport"]');
-if (viewportMeta) {
-    viewportMeta.content = "width=1200"; // Force desktop width
-}
-</script>
+    <!-- App JavaScript Modules -->
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>

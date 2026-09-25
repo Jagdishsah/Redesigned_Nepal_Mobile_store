@@ -1,67 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register - Nepal Mobile Store</title>
-  <link rel="icon" href="icon.png" type="image/x-png">
-  <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up — Nepal Mobile Store</title>
+    <link rel="icon" href="icon.png" type="image/x-png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
-  <div class="register-container">
-    <h2>Nepal Mobile Store</h2>
-    <h3>Sign Up</h3>
-    <form action="day.php" method="POST" onsubmit="return validateForm(event)">
-  
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fas fa-mobile-alt"></i></div>
+                <span>Nepal Mobile Store</span>
+            </a>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#catalog" class="nav-link">Shop</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="form.html" class="nav-link">Login</a></li>
+                    <li><a href="register.html" class="nav-link active btn btn-outline" style="padding: 0.4rem 1rem;">Sign Up</a></li>
+                </ul>
+            </nav>
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required>
+            <div class="header-actions">
+                <button class="icon-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
 
-      <label for="confirm_password">Confirm Password:</label>
-      <input type="password" id="confirm_password" name="confirm_password" required>
+    <!-- Register Container -->
+    <main style="padding: 3.5rem 1.5rem; flex: 1; display: flex; align-items: center; justify-content: center;">
+        <div style="width: 100%; max-width: 460px; background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-xl);">
+            
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <div class="logo-icon" style="margin: 0 auto 1rem; width: 48px; height: 48px; font-size: 1.5rem; background: linear-gradient(135deg, var(--accent), var(--primary));">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                <h2 style="font-size: 1.75rem; font-weight: 800;">Create an Account</h2>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem;">Join Nepal Mobile Store for exclusive offers</p>
+            </div>
 
-      <button type="submit">Sign Up</button>
+            <form action="day.php" method="POST" id="register-form">
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="username" style="display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--text-heading);">
+                        <i class="fas fa-user" style="color: var(--primary);"></i> Username
+                    </label>
+                    <input type="text" id="username" name="username" class="search-input" placeholder="Your Full Name" style="padding-left: 1rem;" required>
+                </div>
 
-      <p>Already have an account? <a href="form.html">Login</a></p>
-    </form>
-    <!-- Container for displaying user response -->
-    <div id="response" style="margin-top: 20px; font-weight: bold; color: green;"></div>
-  </div>
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="email" style="display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--text-heading);">
+                        <i class="fas fa-envelope" style="color: var(--primary);"></i> Email Address
+                    </label>
+                    <input type="email" id="email" name="email" class="search-input" placeholder="name@example.com" style="padding-left: 1rem;" required>
+                </div>
 
-  <script>
-    function validateForm(event) {
-      // Prevent the form from submitting so we can process the input
-      event.preventDefault();
-      
-      let password = document.getElementById("password").value;
-      let confirmPassword = document.getElementById("confirm_password").value;
-      
-      if (password !== confirmPassword) {
-        alert("Passwords do not match!");
-        return false;
-      }
-      
-      let username = document.getElementById("username").value;
-      let email = document.getElementById("email").value;
-      
-      // Create a response message using the user's input
-      let message = "Thank you for registering, " + username + "!\n" + 
-                    "A confirmation email has been sent to " + email + ".";
-      
-      // Display the message in the 'response' div
-      document.getElementById("response").innerText = message;
-      
-      // Optionally, you can clear the form or redirect after a delay.
-      // For now, we return false to prevent the default submission.
-      return false;
-    }
-  </script>
+                <div style="margin-bottom: 1.25rem; position: relative;">
+                    <label for="password" style="display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--text-heading);">
+                        <i class="fas fa-lock" style="color: var(--primary);"></i> Password
+                    </label>
+                    <div style="position: relative;">
+                        <input type="password" id="password" name="password" class="search-input" placeholder="••••••••" style="padding-left: 1rem; padding-right: 2.5rem;" required>
+                        <i class="fas fa-eye" id="togglePassword" style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); cursor: pointer; color: var(--text-muted);"></i>
+                    </div>
+                </div>
 
+                <div style="margin-bottom: 1.75rem;">
+                    <label for="confirm_password" style="display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--text-heading);">
+                        <i class="fas fa-check-double" style="color: var(--primary);"></i> Confirm Password
+                    </label>
+                    <input type="password" id="confirm_password" name="confirm_password" class="search-input" placeholder="••••••••" style="padding-left: 1rem;" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9rem; font-size: 1rem; background-color: var(--success);">
+                    <i class="fas fa-user-check"></i> Sign Up Now
+                </button>
+
+                <p style="text-align: center; margin-top: 1.5rem; font-size: 0.95rem; color: var(--text-muted);">
+                    Already have an account? <a href="form.html" style="color: var(--primary); font-weight: 600;">Log In</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="margin-top: 0; padding: 2rem 0;">
+        <div class="container" style="text-align: center; color: #64748b; font-size: 0.9rem;">
+            <p>&copy; 2026 Nepal Mobile Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>

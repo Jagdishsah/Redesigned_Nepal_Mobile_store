@@ -1,42 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Nepal Mobile Store</title>
-    <link rel="stylesheet" href="contact.css">
+    <title>About Us — Nepal Mobile Store</title>
+    <link rel="icon" href="icon.png" type="image/x-png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
-    <div class="about-container">
-        <h1>About Nepal Mobile Store</h1>
-        <p>Welcome to **Nepal Mobile Store**, your one-stop destination for the latest and most affordable mobile phones in Nepal. We aim to provide high-quality smartphones at the best prices with exceptional customer service.</p>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fas fa-mobile-alt"></i></div>
+                <span>Nepal Mobile Store</span>
+            </a>
 
-        <h2>📌 Our Mission</h2>
-        <p>To offer the latest technology at unbeatable prices while ensuring customer satisfaction.</p>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#catalog" class="nav-link">Shop</a></li>
+                    <li><a href="about.html" class="nav-link active">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="form.html" class="nav-link">Login</a></li>
+                    <li><a href="register.html" class="nav-link btn btn-outline" style="padding: 0.4rem 1rem;">Sign Up</a></li>
+                </ul>
+            </nav>
 
-        <h2>🚀 Our Vision</h2>
-        <p>To be Nepal’s most trusted mobile store, offering a seamless shopping experience both online and offline.</p>
+            <div class="header-actions">
+                <button class="icon-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
 
-        <h2>🔹 Why Choose Us?</h2>
-        <ul>
-            <li>✅ **Latest Smartphones** – We bring you the newest devices from top brands.</li>
-            <li>✅ **Best Prices** – Affordable rates and exciting discounts.</li>
-            <li>✅ **Fast Delivery** – Get your mobile delivered to your doorstep.</li>
-            <li>✅ **Secure Payments** – Safe and reliable transactions.</li>
-            <li>✅ **Excellent Support** – 24/7 customer assistance.</li>
-        </ul>
+    <!-- Main Content -->
+    <main style="padding: 4rem 0;">
+        <div class="container" style="max-width: 900px;">
+            <div class="section-header">
+                <h1 class="section-title">About Nepal Mobile Store</h1>
+                <p class="section-subtitle">Pioneering transparent mobile commerce and tech choices in Nepal.</p>
+            </div>
 
-        <h2>📞 Contact Us</h2>
-        <p>Have questions? Reach out to us anytime!</p>
-        <p>📧 Email: <a href="daya123ab@gmail.com">daya123ab@gmail.com</a></p>
-        <p>📞 Phone: <a href="tel:+9779702406668">+9779702406668</a></p>
-        <p>🌐 Follow us on: 
-            <a href="https://www.facebook.com/kingdaya.happy" target="_blank">🌐 Facebook</a>
-            <a href="https://www.instagram.com/jagdish.sah.daya" target="_blank">📸 Instagram</a>
-            <a href="https://wa.me/9779702406668" target="_blank">💬 WhatsApp</a>
-        </p>
-    </div>
+            <div style="background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 3rem; box-shadow: var(--shadow-md); margin-top: 2rem;">
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-body); margin-bottom: 2rem;">
+                    Welcome to <strong>Nepal Mobile Store</strong> — your trusted destination for genuine smartphones, flagship releases, and affordable mobile choices across Nepal. Originally created as a Grade 12 Computer Science project at Prasadi Academy, this platform has evolved into a modern, full-featured web storefront.
+                </p>
 
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-heading);"><i class="fas fa-bullseye" style="color: var(--primary);"></i> Our Mission</h2>
+                <p style="font-size: 1.05rem; color: var(--text-muted); margin-bottom: 2.5rem;">
+                    To empower smartphone buyers in Nepal with accurate market prices in Nepalese Rupees (NPR), transparent specifications, and a seamless shopping experience.
+                </p>
+
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-heading);"><i class="fas fa-eye" style="color: var(--accent);"></i> Our Vision</h2>
+                <p style="font-size: 1.05rem; color: var(--text-muted); margin-bottom: 2.5rem;">
+                    To establish Nepal's most reliable and user-centric mobile catalog, bridging official manufacturers (Apple, Samsung, Xiaomi, OnePlus, Nothing, Nokia) directly to tech enthusiasts across the country.
+                </p>
+
+                <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--text-heading);"><i class="fas fa-star" style="color: var(--success);"></i> Why Choose Us?</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div style="background-color: var(--bg-body); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <h4 style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--success);"></i> Genuine Brands</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">100% authorized products from Apple, Samsung, Xiaomi, and Nothing.</p>
+                    </div>
+
+                    <div style="background-color: var(--bg-body); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <h4 style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--success);"></i> Real-Time NPR Prices</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Market prices updated from top Nepali tech portals like GadgetByte Nepal.</p>
+                    </div>
+
+                    <div style="background-color: var(--bg-body); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <h4 style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--success);"></i> Fast Delivery</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Doorstep delivery in Siraha, Kathmandu Valley, and nationwide.</p>
+                    </div>
+
+                    <div style="background-color: var(--bg-body); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <h4 style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--success);"></i> Local Customer Support</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Dedicated assistance via Phone (+977 9702406668) and WhatsApp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container" style="text-align: center; color: #64748b; font-size: 0.9rem;">
+            <p>&copy; 2026 Nepal Mobile Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
